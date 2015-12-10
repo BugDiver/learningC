@@ -1,0 +1,14 @@
+int is_even(int);
+int is_odd(int);
+int square(int);
+int cube(int);
+int gcd(int,int);
+int lcm(int,int);
+int simple_interset(int,int,int);
+int compound_interset(int,int,int);
+float convert_cent_to_fahr(float);
+float convert_fahr_to_cent(float);
+int sum_of_1_to_n(int num);
+int greatest_of_three(int ,int ,int);
+float ave_of_three_numbers(int ,int ,int);
+float ave_as_percent(int ,int ,int ,int);
