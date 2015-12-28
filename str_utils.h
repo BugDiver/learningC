@@ -5,3 +5,5 @@ char * to_lower_case(char *);
 int count_vowel(char *);
 int is_palindrome(char *);
 int is_palindrome_recursion(char * , int);
+char * reverse(char * , int);
+char *strip(char * ,int);
