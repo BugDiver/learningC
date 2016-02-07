@@ -13,7 +13,7 @@ Element *setValue(value){
 	Element * e = (Element *)malloc(sizeof(Element));
 	e->value = value;
 	e->next = NULL;
-	e->prev = NULL;
+	e->prev =NULL;
 	return e;
 }
 
@@ -75,8 +75,6 @@ void insert(List *list ,int value , int position){
 	}
 }
 void print_list(List *list){
-	if(list == NULL)
-		printf("%d\n",NULL_ERROR );
 	Element *element = list->f_element;
 	if (element == NULL){
 		printf("%d\n",NULL_ERROR );
